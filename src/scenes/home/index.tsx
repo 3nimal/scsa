@@ -38,17 +38,20 @@ const Home = ({ setSelectedPage }: Props) => {
                             visible: { opacity: 1, x: 0 }
                         }}
                     >
+                    {/*}
                     <div className='relative'>
                         <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1]'>
-                            <p className='text-center font-bold text-white text-6xl italic'>SOUTH COAST SAFETY AGENCY</p>
+                            <p className='text-center font-bold text-red-200 text-6xl italic'>SOUTH COAST SAFETY AGENCY</p>
                             <p className='italic text-blue-300 bold text-xl text-center mt-4'>SECURE - DEFEND - PROTECT (CA PPO 30394)</p>
                             <p className='italic text-blue-300 bold text-sm text-center mt-4'>CA PPO 30394</p>
 
                         </div>
                     </div>
+                    */}
 
                     <p className='mt-8 text-white text-lg'>
-                        Welcome to Southern California's top private security firm. Your safety is our priority.
+                    Welcome to Southern California's top private security firm, where your safety is our utmost priority.<br/>
+                    Watch the video below to learn more about what we do.
                     </p>
                 </motion.div>
 
@@ -64,9 +67,11 @@ const Home = ({ setSelectedPage }: Props) => {
                         visible: { opacity: 1, x: 0 }
                     }}
                 >
+                    {/*}
                     <ActionButton setSelectedPage={setSelectedPage}>
                         Claim Your Quote
                     </ActionButton>
+                    */}
                 </motion.div>
             </div>
 

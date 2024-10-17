@@ -19,7 +19,7 @@ const Home = ({ setSelectedPage }: Props) => {
         id='home'
         className='gap-16 bg-blue-950 py-2 pt-60 md:h-full md:pb-0'
     >
-        
+
         <div className="px-8 md:px-10">
             <p className='mt-8 text-white text-2xl text-center'>
                     Welcome to Southern California's top private security firm, where your safety is our utmost priority. Watch the video below to learn more about what we do.
@@ -27,7 +27,7 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         { /* EMBEDDED VIDEO */}
-            <div className='relative flex justify-center mt-40'>
+            <div className='relative flex justify-center mt-40 mb-16'>
             { /* <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end pt-4'> */}
                 <iframe 
                 className='w-full h-screen max-h-[700px]'

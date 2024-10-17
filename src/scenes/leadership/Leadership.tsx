@@ -23,7 +23,7 @@ const LeadershipCard = ({ icon, title, description, link, setSelectedPage }: Pro
       className="mt-50 rounded-md border-2 border-blue-100 px-5 py-10 text-center"
     >
       <div className="mb-4 flex justify-center">
-        <div className="rounded-full border-2 border-gray-200 bg-blue-200 p-4">
+        <div className="rounded-full border-2 border-gray-200 bg-blue-200 p-4 text-blue-800">
           {icon}
         </div>
       </div>

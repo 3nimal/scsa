@@ -40,7 +40,7 @@ const Leadership = ({setSelectedPage}: Props) => {
   return (
     <section
         id='leadership'
-        className='mx-auto min-h-full w-5/6  pt-96'
+        className='mx-auto min-h-full w-5/6 md:pt-[450px] mb-10'
     >
 
         <motion.div
@@ -66,7 +66,7 @@ const Leadership = ({setSelectedPage}: Props) => {
 
             { /* BENEFITS */}
             <motion.div 
-                className='md:flex items-center justify-between gap-8 mt-5'
+                className='md:flex items-center justify-between gap-8 mt-5 pt-12'
                 initial='hidden'
                 whileInView='visible'
                 viewport={{ once: true, amount: 0.5 }}

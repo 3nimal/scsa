@@ -64,7 +64,7 @@ const OurServices = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 }
           }}
       >
-        <div className='md:w-3/5'>
+        <div className='md:w-3/5 pt-8'>
             <HText>OUR SERVICES</HText>
             <p className='py-5 text-white text-xl'>
             At South Coast Safety Agency, we offer a comprehensive range of security services tailored to meet the needs of our clients while adhering to the latest laws of California. You can trust us to protect what matters most with our wide range of service, mindset, state of the art tools, experience and training.

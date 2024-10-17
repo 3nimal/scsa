@@ -27,7 +27,7 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         { /* EMBEDDED VIDEO */}
-            <div className='relative flex justify-center mt-40 mb-16'>
+            <div className='relative flex justify-center mt-40 mb-6'>
             { /* <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end pt-4'> */}
                 <iframe 
                 className='w-full h-screen max-h-[700px]'
@@ -40,21 +40,6 @@ const Home = ({ setSelectedPage }: Props) => {
                     allowFullScreen>
                 </iframe>
             </div>
-
-        { /* SPONSORS */}
-        {isAboveMediumScreens && (
-            <div className='h-[120px] w-full bg-blue-100 pt-2 py-2'>
-                <div className='mx-auto w-5/6'>
-                    <div className='flex w-full items-center justify-between gap-8'>
-                        <img alt='redbull-sponsor' src={RefHilton} className='w-30 h-20'  />
-                        <img alt='forbes-sponsor' src={RefWarnerBros} className='w-30 h-20' />
-                        <img alt='fortune-sponsor' src={RefNordstrom} className='w-30 h-20' />
-                        <img alt='fortune-sponsor' src={RefChevron} className='w-30 h-20' />
-                        <img alt='fortune-sponsor' src={RefAudi} className='w-30 h-20' />
-                    </div>
-                </div>
-            </div>
-        )}
         
     </section>
 }

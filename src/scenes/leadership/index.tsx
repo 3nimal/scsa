@@ -5,6 +5,12 @@ import HText from '@/shared/HText'
 import LeadershipCard from './Leadership'
 import ActionButton from '@/shared/ActionButton'
 import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.jpg'
+import RefHilton from '@/assets/RefHilton.png'
+import RefWarnerBros from '@/assets/RefWarnerBros.png'
+import RefNordstrom from '@/assets/RefNordstrom.png'
+import RefChevron from '@/assets/RefChevron.svg'
+import RefAudi from '@/assets/RefAudi.png'
+import useMediaQuery from '@/hooks/useMediaQuery'
 
 const leadershipData : Array<LeadershipType> = [
     {
@@ -37,6 +43,7 @@ type Props = {
 }
 
 const Leadership = ({setSelectedPage}: Props) => {
+    const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
   return (
     <section
         id='leadership'
@@ -46,6 +53,25 @@ const Leadership = ({setSelectedPage}: Props) => {
         <motion.div
             onViewportEnter={() => setSelectedPage(SelectedPage.Leadership)}
         >
+
+
+{ /* SPONSORS */}
+        {isAboveMediumScreens && (
+            <div className='h-[120px] w-full bg-blue-100 pt-4 py-2'>
+                <div className='mx-auto w-5/6'>
+                    <div className='flex w-full items-center justify-between gap-8'>
+                        <img alt='redbull-sponsor' src={RefHilton} className='w-30 h-20'  />
+                        <img alt='forbes-sponsor' src={RefWarnerBros} className='w-30 h-20' />
+                        <img alt='fortune-sponsor' src={RefNordstrom} className='w-30 h-20' />
+                        <img alt='fortune-sponsor' src={RefChevron} className='w-30 h-20' />
+                        <img alt='fortune-sponsor' src={RefAudi} className='w-30 h-20' />
+                    </div>
+                </div>
+            </div>
+        )}
+
+
+
             { /* HEADER */}
             <motion.div 
                 className='md:my-5 md:w-3/5'

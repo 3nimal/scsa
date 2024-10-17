@@ -66,13 +66,13 @@ const OurServices = ({ setSelectedPage }: Props) => {
       >
         <div className='md:w-3/5'>
             <HText>OUR SERVICES</HText>
-            <p className='py-5 text-yellow-300 text-xl'>
+            <p className='py-5 text-white text-xl'>
             At South Coast Safety Agency, we offer a comprehensive range of security services tailored to meet the needs of our clients while adhering to the latest laws of California. You can trust us to protect what matters most with our wide range of service, mindset, state of the art tools, experience and training.
             </p>
         </div>
 
       </motion.div>
-      <div className='mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden'>
+      <div className='mt-10 h-[450px] w-full overflow-x-auto overflow-y-hidden pb-4'>
           <ul className='w-[2800px] whitespace-nowrap'>
               {classes.map((item, index) => (
                   <Class 

@@ -17,7 +17,7 @@ const Home = ({ setSelectedPage }: Props) => {
     const isAboveMediumScreens = useMediaQuery('(min-width:1060px)')
     return <section
         id='home'
-        className='gap-16 bg-blue-950 py-10 md:h-full md:pb-0'
+        className='gap-16 bg-blue-950 py-10 pt-8 md:h-full md:pb-0'
     >
             { /* IMAGE AND MAIN HEADER */ }
             <motion.div 
@@ -40,8 +40,8 @@ const Home = ({ setSelectedPage }: Props) => {
                     >
                     <div className='relative'>
                         <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1]'>
-                            <p className='text-center font-bold text-yellow-400 text-6xl italic'>South Coast<br/>Safety Agency</p>
-                            <p className='italic text-blue-300 bold text-3xl text-center mt-4'>Your Safety, Our Commitment</p>
+                            <p className='text-center font-bold text-white text-4xl italic'>South Coast<br/>Safety Agency</p>
+                            <p className='italic text-blue-300 bold text-xl text-center mt-4'>Your Safety, Our Commitment</p>
                         </div>
                     </div>
 
@@ -81,20 +81,22 @@ const Home = ({ setSelectedPage }: Props) => {
                 </iframe>
             </div>
 
+            { /*
             <div className='mt-8 pl-8'>
-                <h2 className='text-xl font-bold text-center text-yellow-400'>Real-Time Incident Levels</h2>
-                <h2 className='text-sm font-bold text-center text-yellow-400'>Data for California from FEMA</h2>
-                <div className='flex justify-center'> {/* Center the chart */}
-                    <div className='max-w-xs'> {/* Control max width */}
+                <h2 className='text-xl font-bold text-center text-white'>Real-Time Incident Levels</h2>
+                <h2 className='text-sm font-bold text-center text-white'>Data for California from FEMA</h2>
+                <div className='flex justify-center'> 
+                    <div className='max-w-xs'> 
                         <RealTimeBarChart />
                     </div>
                 </div>
             </div>
+            */}
         </motion.div>
 
         { /* SPONSORS */}
         {isAboveMediumScreens && (
-            <div className='h-[150px] w-full bg-yellow-500 py-10'>
+            <div className='h-[150px] w-full bg-blue-100 py-10'>
                 <div className='mx-auto w-5/6'>
                     <div className='flex w-full items-center justify-between gap-8'>
                         <img alt='redbull-sponsor' src={RefHilton} className='w-30 h-20'  />

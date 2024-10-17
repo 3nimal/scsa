@@ -9,7 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-yellow-100
+  const inputStyles = `mb-5 w-full rounded-lg bg-blue-100
   px-5 py-3 placeholder-blue font-bold text-blue-600 text-xl`;
 
   const {
@@ -43,7 +43,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-blue-500">REACH OUT </span>NOW <span className="text-blue-500">TO GET A FREE QUOTE!</span>
+            <span className="text-blue-500">REACH OUT </span><span className="text-red-500">NOW</span><span className="text-blue-500"> TO GET A FREE QUOTE!</span>
           </HText>
           <p className="my-5 text-blue-500">
           Get in touch now to ensure your safety! Our dedicated team is ready to provide tailored security solutions that meet your unique needs, helping you protect what matters most.

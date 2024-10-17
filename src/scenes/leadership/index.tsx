@@ -58,7 +58,7 @@ const Leadership = ({setSelectedPage}: Props) => {
                     visible: { opacity: 1, x: 0 }
                 }}
             >
-                <HText>LEADERSHIP @ SOUTH COAST SAFETY AGENCY</HText>
+                <HText><span className='text-blue-800'>LEADERSHIP @ SOUTH COAST SAFETY AGENCY</span></HText>
                 <p className='my-5 text-lg text-blue-800'>
                     At South Coast Safety Agency, our leadership team brings with them extensive experience in law enforcement and public safety. Our teams are therefore grounded in professional expertise. Certified by the state of California, we uphold the highest standards of safety and reliability in our services. Our commitment to excellence and community protection sets us apart in the industry.
                 </p>
@@ -99,7 +99,7 @@ const Leadership = ({setSelectedPage}: Props) => {
                 <div>
                     { /* TITLE */ }
                     <div className='relative'>
-                        <div className='before:absolute before:-left-60 before:-top-20 before:z-[1]  before:content-highlighterblob'>
+                        <div className='before:absolute before:-left-60 before:-top-20 before:z-[1]'>
                             <motion.div
                                 initial = 'hidden'
                                 whileInView='visible'
@@ -111,7 +111,7 @@ const Leadership = ({setSelectedPage}: Props) => {
                                 }}
                             >
                                 <HText>
-                                    AL ROCCA{' - '}
+                                    <span className='text-yellow-500'>AL ROCCA - </span>
                                     <span className='text-blue-800'>CARING FOR OUR COMMUNITY</span>
                                 </HText>
                             </motion.div>

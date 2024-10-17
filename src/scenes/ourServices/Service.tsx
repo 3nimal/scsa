@@ -7,8 +7,8 @@ type Props = {
 
 const Service = ({ name, description, image } : Props) => {
     const overlayStyles = `p-5 absolute z-30 flex
-  h-[380px] w-[450px] flex-col items-center justify-center
-  whitespace-normal bg-yellow-500 text-center text-blue-600 font-bold
+  h-[410px] w-[450px] flex-col items-center justify-center
+  whitespace-normal bg-blue-500 text-center text-white font-bold
   opacity-0 transition duration-500 hover:opacity-90`
 
     return (

@@ -20,7 +20,7 @@ const LeadershipCard = ({ icon, title, description, link, setSelectedPage }: Pro
   return (
     <motion.div
       variants={childVariant}
-      className="mt-50 rounded-md border-2 border-blue-100 px-5 py-16 text-center"
+      className="mt-50 rounded-md border-2 border-blue-100 px-5 py-10 text-center"
     >
       <div className="mb-4 flex justify-center">
         <div className="rounded-full border-2 border-gray-200 bg-blue-200 p-4">

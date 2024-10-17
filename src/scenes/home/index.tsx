@@ -40,8 +40,10 @@ const Home = ({ setSelectedPage }: Props) => {
                     >
                     <div className='relative'>
                         <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1]'>
-                            <p className='text-center font-bold text-white text-4xl italic'>South Coast<br/>Safety Agency</p>
-                            <p className='italic text-blue-300 bold text-xl text-center mt-4'>Your Safety, Our Commitment</p>
+                            <p className='text-center font-bold text-white text-6xl italic'>SOUTH COAST SAFETY AGENCY</p>
+                            <p className='italic text-blue-300 bold text-xl text-center mt-4'>SECURE - DEFEND - PROTECT (CA PPO 30394)</p>
+                            <p className='italic text-blue-300 bold text-sm text-center mt-4'>CA PPO 30394</p>
+
                         </div>
                     </div>
 
@@ -68,18 +70,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 </motion.div>
             </div>
 
-            { /* EMBEDDED VIDEO */}
-            <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end pt-4'>
-                <iframe 
-                    width="600" 
-                    height="400" 
-                    src="https://www.youtube.com/embed/Rrya__NYcmY?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&loop=1&playlist=Rrya__NYcmY"
-                    title="YouTube video player" 
-                    frameBorder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen>
-                </iframe>
-            </div>
+           
 
             { /*
             <div className='mt-8 pl-8'>
@@ -93,6 +84,24 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
             */}
         </motion.div>
+
+
+        { /* EMBEDDED VIDEO */}
+            <div className='relative flex justify-center mt-2'>
+            { /* <div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end pt-4'> */}
+                <iframe 
+                className='w-full h-screen max-h-[700px]'
+                    width="600" 
+                    height="400" 
+                    src="https://www.youtube.com/embed/Rrya__NYcmY?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&loop=1&playlist=Rrya__NYcmY"
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
+            </div>
+
+
 
         { /* SPONSORS */}
         {isAboveMediumScreens && (

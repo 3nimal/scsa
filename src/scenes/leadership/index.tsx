@@ -130,7 +130,7 @@ const Leadership = ({setSelectedPage}: Props) => {
                         }}
                     >
                         <p className="my-5 text-blue-600">
-                            Chief Al Rocca founded South Coast Safety Agency in 2024 He founded the company in 2024 driven by a strong commitment to safety for all community members, without exclusion.
+                            Chief Al Rocca founded South Coast Safety Agency. He founded the company in 2024 driven by a strong commitment to safety for all community members, without exclusion.
                         </p>
                         <p className="mb-5 text-blue-600">
                             Chief Al Rocca has 23 years of public safety experience. His background includes emergency ambulance operations, law enforcement,  military emergency management, and being a park ranger. He has five degrees, including a masters in organizational leadership.

@@ -47,7 +47,8 @@ const Leadership = ({setSelectedPage}: Props) => {
   return (
     <section
         id='leadership'
-        className='mx-auto min-h-full w-5/6 md:pt-[450px] mb-10'
+        // className='mx-auto min-h-full w-5/6 md:pt-[650px] mb-10'
+        className='mx-auto min-h-full w-5/6 pt-[30%] mb-10'
     >
 
         <motion.div

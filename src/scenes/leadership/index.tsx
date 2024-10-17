@@ -58,10 +58,11 @@ const Leadership = ({setSelectedPage}: Props) => {
                     visible: { opacity: 1, x: 0, y: 50 }
                 }}
             >
-                { /* <HText><span className='text-blue-800'>LEADERSHIP @ SOUTH COAST SAFETY AGENCY</span></HText> */}
+                { /* <HText><span className='text-blue-800'>LEADERSHIP @ SOUTH COAST SAFETY AGENCY</span></HText>
                 <p className='my-5 pt-10 text-lg text-blue-800'>
                     At South Coast Safety Agency, our leadership team brings with them extensive experience in law enforcement and public safety. Our teams are therefore grounded in professional expertise. Certified by the state of California, we uphold the highest standards of safety and reliability in our services. Our commitment to excellence and community protection sets us apart in the industry.
                 </p>
+                */}
             </motion.div>
 
             { /* BENEFITS */}

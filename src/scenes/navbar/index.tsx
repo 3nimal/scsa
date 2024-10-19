@@ -83,7 +83,7 @@ type Props = {
 
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                  <p className='text-blue-400 text-lg' onClick={toggleLoginPopup}>Sign In</p>
+                  <p className='text-blue-400 text-lg cursor-pointer' onClick={toggleLoginPopup}>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Get a quote today!
                   </ActionButton>

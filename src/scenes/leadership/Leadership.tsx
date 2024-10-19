@@ -1,5 +1,5 @@
-import { SelectedPage } from "@/shared/types";
-import { motion } from "framer-motion";
+import { SelectedPage } from "@/shared/types"
+import { motion } from "framer-motion"
 
 const childVariant = {
   hidden: { opacity: 0, scale: 0.9 },
@@ -7,11 +7,11 @@ const childVariant = {
 };
 
 type Props = {
-  icon: JSX.Element;
-  title: string;
-  description: string;
-  link?: string;
-  setSelectedPage: (value: SelectedPage) => void;
+  icon: JSX.Element
+  title: string
+  description: string
+  link?: string
+  setSelectedPage: (value: SelectedPage) => void
 };
 
 const LeadershipCard = ({ icon, title, description, link, setSelectedPage }: Props) => {
@@ -20,7 +20,7 @@ const LeadershipCard = ({ icon, title, description, link, setSelectedPage }: Pro
   return (
     <motion.div
       variants={childVariant}
-      className="mt-50 rounded-md border-2 border-blue-100 px-5 py-10 text-center"
+      className="mt-50 rounded-md border-2 border-blue-100 px-5 py-10 text-center h-full min-h-[300px]"
     >
       <div className="mb-4 flex justify-center">
         <div className="rounded-full border-2 border-gray-200 bg-blue-200 p-4 text-blue-800">
@@ -40,9 +40,9 @@ const LeadershipCard = ({ icon, title, description, link, setSelectedPage }: Pro
       </a>
 
     </motion.div>
-  );
-};
+  )
+}
 
 
 
-export default LeadershipCard;
+export default LeadershipCard

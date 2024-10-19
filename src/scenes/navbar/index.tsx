@@ -76,7 +76,12 @@ type Props = {
                     setSelectedPage={setSelectedPage}
                   />
 
-                 
+                  <div className="flex justify-center items-center">
+                    <p className="text-yellow-400 font-bold text-xl text-center">
+                      (333) 425-6825 or<span className="bg-black text-white"> 911 for emergencies.</span>
+                    </p>
+                  </div>
+                              
                 {/*
                   <img src={SCSALogo} width='400' className="pl-8" />
                 */}

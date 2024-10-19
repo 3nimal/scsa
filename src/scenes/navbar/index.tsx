@@ -36,7 +36,7 @@ type Props = {
                 <div className="flex items-center justify-center space-x-4">
                   <img src={Logo} className="h-28" alt="logo" />
                   <div className="text-white">
-                    <p className="font-bold text-6xl italic">NORTH COAST SAFETY AGENCY</p>
+                    <p className="font-bold text-6xl italic">SOUTH COAST SAFETY AGENCY</p>
                     <p className="text-2xl">SECURE - DEFEND - PROTECT - CA PPO 30334</p>
                   </div>
                 </div>
